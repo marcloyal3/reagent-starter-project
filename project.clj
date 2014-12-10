@@ -14,13 +14,12 @@
                         :compiler {:optimizations :none
                                    :output-to "public/dev/app.js"
                                    :output-dir "public/dev/"
-                                   :pretty-print true
                                    :source-map true}}
                        {:id "prod"
                         :source-paths ["src"]
                         :compiler {:optimizations :advanced
                                    :output-to "public/js/app.js"
-                                   :pretty-print? true}}
+                                   :pretty-print false}}
                        ]}
 
   :min-lein-version "2.0.0")
