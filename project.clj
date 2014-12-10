@@ -20,8 +20,7 @@
                         :source-paths ["src"]
                         :compiler {:optimizations :advanced
                                    :output-to "public/js/app.js"
-                                   :output-dir "public/js/"
-                                   :pretty-print true}}
+                                   :pretty-print? true}}
                        ]}
 
   :min-lein-version "2.0.0")
